@@ -6,6 +6,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+            {/* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link */}
             <link rel="preload" hefre="/fonts/IBMPlexSans-Bold.tff" as="font" crossOrigin="anonymous"></link>
             <link rel="preload" hefre="/fonts/IBMPlexSans-Italic.tff" as="font" crossOrigin="anonymous"></link>
             <link rel="preload" hefre="/fonts/IBMPlexSans-Regular.tff" as="font" crossOrigin="anonymous"></link>
