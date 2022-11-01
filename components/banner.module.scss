@@ -1,4 +1,7 @@
 /** By default, this is a mobile breakpoint **/
+
+$primary-color: rgba(249, 250, 251, 1);
+
 .container {
     margin-bottom: 6rem;
     position: relative;
@@ -15,7 +18,7 @@
   }
   
   .title1 {
-    color: rgba(249, 250, 251, 1);
+    color: $primary-color;
   }
   
   .title2 {
